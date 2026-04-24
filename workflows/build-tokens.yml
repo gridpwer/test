@@ -1,0 +1,42 @@
+name: Build Design Tokens
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "tokens/**"
+      - "config/**"
+      - "scripts/**"
+      - "package.json"
+      - "package-lock.json"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-tokens:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build tokens
+        run: npm run build
+
+      - name: Commit generated CSS
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "build: update generated token css"
+          file_pattern: "build/css/variables.css config/generated.tokens.json"
