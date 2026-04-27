@@ -150,7 +150,7 @@
         },
         "alpha": {
           "black100": {
-            "value": "#0000000",
+            "value": "#00ff2c",
             "type": "color",
             "description": "text-title"
           },
@@ -3548,7 +3548,7 @@
       },
       "alpha": {
         "black100": {
-          "value": "#0000000",
+          "value": "#00ff2c",
           "type": "color",
           "description": "text-title"
         },
