@@ -38,7 +38,7 @@
   --primitive-value-set-color-light-gray-90: #1e2124;
   --primitive-value-set-color-light-gray-95: #131416;
   --primitive-value-set-color-light-gray-100: #000000;
-  --primitive-value-set-color-light-alpha-black100: #ff00ee;
+  --primitive-value-set-color-light-alpha-black100: #0000000;
   --primitive-value-set-color-light-alpha-black75: rgba(0, 0, 0, 0.75);
   --primitive-value-set-color-light-alpha-black50: rgba(0, 0, 0, 0.5);
   --primitive-value-set-color-light-alpha-black25: rgba(0, 0, 0, 0.25);
@@ -344,7 +344,7 @@
   --color-light-gray-90: #1e2124;
   --color-light-gray-95: #131416;
   --color-light-gray-100: #000000;
-  --color-light-alpha-black100: #ff00ee;
+  --color-light-alpha-black100: #0000000;
   --color-light-alpha-black75: rgba(0, 0, 0, 0.75);
   --color-light-alpha-black50: rgba(0, 0, 0, 0.5);
   --color-light-alpha-black25: rgba(0, 0, 0, 0.25);
