@@ -13,6 +13,26 @@
           }
         }
       ]
+    },
+    "markdown": {
+      "transformGroup": "web",
+      "buildPath": "build/docs/",
+      "files": [
+        {
+          "destination": "design-tokens.md",
+          "format": "markdown/table"
+        }
+      ]
+    },
+    "mdx": {
+      "transformGroup": "web",
+      "buildPath": "build/docs/",
+      "files": [
+        {
+          "destination": "tokens.mdx",
+          "format": "mdx/custom-format"
+        }
+      ]
     }
   }
 }

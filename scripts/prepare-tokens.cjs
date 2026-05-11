@@ -1,25 +1,34 @@
-const fs = require('fs');
-const path = require('path');
+const StyleDictionary = require('style-dictionary');
 
-const root = path.resolve(__dirname, '..');
-const sourcePath = path.join(root, 'tokens', 'tokens.json');
-const outputPath = path.join(root, 'config', 'generated.tokens.json');
+StyleDictionary.registerFormat({
+  name: 'mdx/custom-format',
+  formatter: function ({ dictionary }) {
+    const tokenRows = dictionary.allTokens.map(token => {
+      const value = String(token.value ?? '');
+      const type = token.type || token.attributes?.category || '';
+      const description = token.comment || token.description || '';
+      const isColor =
+        type === 'color' ||
+        value.startsWith('#') ||
+        value.startsWith('rgb') ||
+        value.startsWith('hsl');
+      const preview = isColor
+        ? `<span style={{ display: 'inline-block', width: '20px', height: '20px', backgroundColor: '${value}', border: '1px solid #ccc', borderRadius: '4px' }}></span>`
+        : '';
+      return `| ${token.name} | \`${value}\` | ${preview} | ${description} |`;
+    }).join('\n');
+    return `# Design Tokens
+이 문서는 JSON 토큰에서 자동으로 생성되었습니다.
 
-const source = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
-const primitiveSet = source['primitive/value-set'];
-
-if (!primitiveSet || typeof primitiveSet !== 'object') {
-  throw new Error('Missing "primitive/value-set" in tokens/tokens.json');
-}
-
-const normalized = {
-  ...source,
-};
-
-for (const [key, value] of Object.entries(primitiveSet)) {
-  if (normalized[key] === undefined) {
-    normalized[key] = value;
+| Name | Value | Preview | Description |
+| :--- | :--- | :--- | :--- |
+${tokenRows}
+`;
   }
-}
+});
 
-fs.writeFileSync(outputPath, `${JSON.stringify(normalized, null, 2)}\n`);
+const sd = StyleDictionary.extend('./config/style-dictionary.config.json');
+
+console.log('Build starting...');
+sd.buildAllPlatforms();
+console.log('Build completed! Check build/docs folder.');

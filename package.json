@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node scripts/prepare-tokens.cjs && style-dictionary build --config config/style-dictionary.config.json"
+    "build": "node scripts/prepare-tokens.cjs"
   },
   "keywords": [],
   "author": "",
