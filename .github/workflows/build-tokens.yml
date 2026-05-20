@@ -30,7 +30,7 @@ jobs:
           node-version: 24
           
       - name: Install dependencies
-        run: npm install style-dictionary
+        run: npm ci
 
       - name: Build tokens
         run: npm run build
