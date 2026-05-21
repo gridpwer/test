@@ -25,7 +25,7 @@ Generated automatically from JSON design tokens.
 | color-light-secondary-80 | `#364151` |  |  |
 | color-light-secondary-90 | `#28303a` |  |  |
 | color-light-secondary-95 | `#0d0f12` |  |  |
-| color-light-gray-0 | `#ffffff` |  |  |
+| color-light-gray-0 | `#ff00ee` |  |  |
 | color-light-gray-5 | `#f6f9fc` |  |  |
 | color-light-gray-10 | `#e8ecf1` |  |  |
 | color-light-gray-20 | `#ccd3de` |  |  |
@@ -255,12 +255,12 @@ Generated automatically from JSON design tokens.
 | mode-light-color-surface-success-subtler | `#eaf6ec` |  |  |
 | mode-light-color-surface-information-subtler | `#e7f4fe` |  |  |
 | mode-light-color-surface-point-subtler | `#fbeff0` |  |  |
-| mode-light-color-surface-white | `#ffffff` |  | disabled |
+| mode-light-color-surface-white | `#ff00ee` |  | disabled |
 | mode-light-color-surface-inverse | `#161a20` |  | disabled |
-| mode-light-color-surface-white-static | `#ffffff` |  | disabled |
+| mode-light-color-surface-white-static | `#ff00ee` |  | disabled |
 | mode-light-color-surface-inverse-static | `#161a20` |  | disabled |
-| mode-light-color-surface-white-subtle | `#ffffff` |  | disabled |
-| mode-light-color-surface-white-subtler | `#ffffff` |  | disabled |
+| mode-light-color-surface-white-subtle | `#ff00ee` |  | disabled |
+| mode-light-color-surface-white-subtler | `#ff00ee` |  | disabled |
 | mode-light-color-border-gray-light | `#ccd3de` |  |  |
 | mode-light-color-border-gray | `#b5bfcd` |  | disabled |
 | mode-light-color-border-secondary-light | `#eef1f8` |  |  |
@@ -277,7 +277,7 @@ Generated automatically from JSON design tokens.
 | mode-light-color-border-disabled | `#b5bfcd` |  | disabled |
 | mode-light-color-border-gray-darker | `#161a20` |  | active |
 | mode-light-color-border-secondary | `#3d4a5c` |  | active/selected |
-| mode-light-color-border-inverse | `#ffffff` |  | disabled |
+| mode-light-color-border-inverse | `#ff00ee` |  | disabled |
 | mode-light-color-border-transparency | `rgba(0, 0, 0, 0)` |  | disabled |
 | mode-light-color-border-primary-light | `#ffeed6` |  | active/selected |
 | mode-light-color-border-point | `#d63d4a` |  | active/selected |
@@ -290,7 +290,7 @@ Generated automatically from JSON design tokens.
 | mode-light-color-divider-secondary | `#3d4a5c` |  | active/selected |
 | mode-light-color-divider-error | `#de3412` |  |  |
 | mode-light-color-divider-primary-light | `#ffeed6` |  | active/selected |
-| mode-light-color-divider-inverse | `#ffffff` |  |  |
+| mode-light-color-divider-inverse | `#ff00ee` |  |  |
 | mode-light-color-divider-gray-darker | `#161a20` |  | active |
 | mode-light-color-divider-point | `#d63d4a` |  |  |
 | mode-light-color-text-bolder | `#0d1014` |  |  |
@@ -305,14 +305,14 @@ Generated automatically from JSON design tokens.
 | mode-light-color-text-information | `#096ab3` |  |  |
 | mode-light-color-text-basic | `#161a20` |  |  |
 | mode-light-color-text-point | `#ab2b36` |  |  |
-| mode-light-color-text-bolder-inverse | `#ffffff` |  |  |
-| mode-light-color-text-basic-inverse | `#ffffff` |  |  |
+| mode-light-color-text-bolder-inverse | `#ff00ee` |  |  |
+| mode-light-color-text-basic-inverse | `#ff00ee` |  |  |
 | mode-light-color-text-subtle-inverse | `#b5bfcd` |  |  |
-| mode-light-color-text-inverse-static | `#ffffff` |  |  |
+| mode-light-color-text-inverse-static | `#ff00ee` |  |  |
 | mode-light-color-text-static | `#161a20` |  |  |
 | mode-light-color-icon-gray | `#1f242d` |  |  |
 | mode-light-color-icon-gray-fill | `#ccd3de` |  |  |
-| mode-light-color-icon-inverse | `#ffffff` |  |  |
+| mode-light-color-icon-inverse | `#ff00ee` |  |  |
 | mode-light-color-icon-primary | `#ff7f00` |  | active/selected |
 | mode-light-color-icon-secondary | `#364151` |  | active/selected |
 | mode-light-color-icon-point | `#d63d4a` |  |  |
@@ -323,7 +323,7 @@ Generated automatically from JSON design tokens.
 | mode-light-color-icon-gray-light | `#323b49` |  |  |
 | mode-light-color-icon-disabled | `#79879c` |  |  |
 | mode-light-color-icon-disabled-on | `#5e6d83` |  |  |
-| mode-light-color-icon-inverse-static | `#ffffff` |  |  |
+| mode-light-color-icon-inverse-static | `#ff00ee` |  |  |
 | mode-light-color-icon-primary-static | `#ff7f00` |  | active/selected |
 | mode-light-color-icon-secondary-static | `#364151` |  | active/selected |
 | mode-light-color-icon-point-static | `#d63d4a` |  |  |
@@ -353,7 +353,7 @@ Generated automatically from JSON design tokens.
 | mode-light-color-button-text-fill | `rgba(255, 255, 255, 0)` |  |  |
 | mode-light-color-button-text-border | `rgba(0, 0, 0, 0)` |  |  |
 | mode-light-color-button-disabled-border | `#b5bfcd` |  |  |
-| mode-light-color-background-white | `#ffffff` |  |  |
+| mode-light-color-background-white | `#ff00ee` |  |  |
 | mode-light-color-background-inverse | `#161a20` |  |  |
 | mode-light-color-background-gray-subtler | `#f6f9fc` |  |  |
 | mode-light-color-background-gray-subtle | `#e8ecf1` |  |  |
@@ -380,11 +380,11 @@ Generated automatically from JSON design tokens.
 | mode-light-color-element-success | `#228738` |  |  |
 | mode-light-color-element-information-lighter | `#e7f4fe` |  |  |
 | mode-light-color-element-information | `#0b78cb` |  |  |
-| mode-light-color-element-inverse | `#ffffff` |  |  |
+| mode-light-color-element-inverse | `#ff00ee` |  |  |
 | mode-light-color-element-gray-dark | `#475367` |  |  |
-| mode-light-color-element-inverse-static | `#ffffff` |  |  |
+| mode-light-color-element-inverse-static | `#ff00ee` |  |  |
 | mode-light-color-element-logo-text | `#575756` |  |  |
-| mode-light-color-action-white | `#ffffff` |  | disabled |
+| mode-light-color-action-white | `#ff00ee` |  | disabled |
 | mode-light-color-action-primary | `rgba(255, 255, 255, 0)` |  |  |
 | mode-light-color-action-primary-hover | `#fffcf0` |  |  |
 | mode-light-color-action-primary-pressed | `#ffeed6` |  |  |
@@ -393,9 +393,9 @@ Generated automatically from JSON design tokens.
 | mode-light-color-action-secondary-pressed | `#eef1f8` |  |  |
 | mode-light-color-action-secondary-selected | `#f8f9fa` |  |  |
 | mode-light-color-action-secondary-on | `rgba(255, 255, 255, 0)` |  |  |
-| mode-light-color-action-secondary-on-hover | `#ffffff` |  |  |
+| mode-light-color-action-secondary-on-hover | `#ff00ee` |  |  |
 | mode-light-color-action-secondary-on-pressed | `#eef1f8` |  |  |
-| mode-light-color-action-secondary-on-selected | `#ffffff` |  |  |
+| mode-light-color-action-secondary-on-selected | `#ff00ee` |  |  |
 | mode-light-color-action-secondary-active | `#3d4a5c` |  |  |
 | mode-light-color-action-primary-active | `#ff7f00` |  |  |
 | mode-light-color-action-disabled | `#ccd3de` |  |  |
@@ -404,15 +404,15 @@ Generated automatically from JSON design tokens.
 | mode-light-color-action-gray-pressed | `#e8ecf1` |  |  |
 | mode-light-color-action-gray-selected | `#f6f9fc` |  |  |
 | mode-light-color-action-gray-on | `rgba(255, 255, 255, 0)` |  |  |
-| mode-light-color-action-gray-on-hover | `#ffffff` |  |  |
+| mode-light-color-action-gray-on-hover | `#ff00ee` |  |  |
 | mode-light-color-action-gray-on-pressed | `#e8ecf1` |  |  |
-| mode-light-color-action-gray-on-selected | `#ffffff` |  |  |
+| mode-light-color-action-gray-on-selected | `#ff00ee` |  |  |
 | mode-light-color-action-gray-active | `#323b49` |  |  |
 | mode-light-color-input-border | `#475367` |  |  |
 | mode-light-color-input-border-disabled | `#b5bfcd` |  |  |
 | mode-light-color-input-border-active | `#ff7f00` |  | active/selected |
 | mode-light-color-input-border-error | `#de3412` |  |  |
-| mode-light-color-input-surface | `#ffffff` |  |  |
+| mode-light-color-input-surface | `#ff00ee` |  |  |
 | mode-light-color-input-surface-disabled | `#ccd3de` |  |  |
 | mode-light-color-graphic-blue-subtler | `#e5ecf9` |  | disabled |
 | mode-light-color-graphic-blue-subtle | `#98acc5` |  | disabled |
