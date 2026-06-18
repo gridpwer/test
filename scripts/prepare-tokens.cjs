@@ -11,10 +11,15 @@ function stripFigmaMetadata(value) {
   }
 
   if (value && typeof value === 'object') {
+    if ('$value' in value) {
+      return { value: value.$value };
+    }
+
     return Object.fromEntries(
       Object.entries(value)
         .filter(([key]) => !key.startsWith('$'))
-        .map(([key, childValue]) => [key, stripFigmaMetadata(childValue)]),
+        .map(([key, childValue]) => [key, stripFigmaMetadata(childValue)])
+        .filter(([_, childValue]) => childValue !== undefined)
     );
   }
 
